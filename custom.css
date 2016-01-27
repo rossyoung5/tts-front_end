@@ -9,7 +9,7 @@ p, ul, li{
 header{
   width:200px;
   height:200px;
-  margin: 10px 20%;
+  margin: 10px 50%;
 }
 
 .topimage{
@@ -21,6 +21,7 @@ header{
   color: #ff4500;
   font-weight: 700;
   text-decoration: underline;
+  text-align: center;
 }
 
 .example1{
@@ -47,5 +48,5 @@ header{
 #lionbox{
   width:200px;
   height:200px;
-  margin: 10px 20%;
+  margin: 10px 50%;
 }
