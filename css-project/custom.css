@@ -12,15 +12,29 @@ h1 {
   color: #004080;
 }
 
-h2 {
-  text-decoration: underline;
-}
-
 li {
   font-weight: 700;
 }
 
+.restaurant-box {
+  background-color: #d4ebf2;
+}
+
+.restaurant-box a {
+  text-decoration: none;
+}
+
+.restaurant-box a h2 {
+  color: #636363;
+}
+.restaurant-box a:hover h2{
+  color: #cecece;
+}
+
 #title{
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
 }
+
+
+
