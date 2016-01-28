@@ -1,6 +1,11 @@
 body{
   font-family: 'Fira Sans', sans-serif;
-  color: #4c4c4c;
+  color: #eee;
+  background-image: url("wine_spice.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
 }
 
 h1, h2, h3 {
@@ -8,16 +13,33 @@ h1, h2, h3 {
   color: #2c2c2c;
 }
 
-h1 {
-  color: #004080;
+header {
+background: #004080;
+background: linear-gradient(#1f7a4a, #202020);
+background-size: cover;
 }
 
-li {
+header h1{
+  color: #eee;
+  text-align: left;
+  font-size: 3em;
   font-weight: 700;
+  margin-top: 0;
+  padding: 7px;
+  line-height: 95%;
+}
+
+#about{
+  line-height: 150%;
+  text-align: center;
+  color: #eee;
+
 }
 
 .restaurant-box {
-  background-color: #d4ebf2;
+  margin: 20px 0;
+  background-color: rgba(37,37,37,0.5);
+  padding: 10px;
 }
 
 .restaurant-box a {
@@ -26,15 +48,44 @@ li {
 
 .restaurant-box a h2 {
   color: #636363;
+  text-transform: uppercase;
 }
 .restaurant-box a:hover h2{
   color: #cecece;
 }
 
-#title{
-  text-align: center;
-  font-size: 2em;
+.restaurant-box img {
+  float: right;
 }
 
+.restaurant-box p {
+  clear: both;
+}
 
+li {
+  font-weight: 700;
+}
 
+.play {
+  height:50px;
+  width:150px;
+  border: 1px dashed blue;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+#a {
+  background-color: #a4c639;
+}
+
+#b {
+  background-color: #ffe135;
+}
+
+#c {
+  background-color: #08e8de;
+}
+
+#d {
+  background-color: #ff0040;
+}
